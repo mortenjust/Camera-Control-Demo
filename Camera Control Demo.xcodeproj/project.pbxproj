@@ -80,6 +80,7 @@
 		C8D456AA2A54186B000A3A20 = {
 			isa = PBXGroup;
 			children = (
+				C8D456E72A541FBE000A3A20 /* README.md */,
 				C8D456B52A54186B000A3A20 /* Camera Control Demo */,
 				C8D456C72A54186C000A3A20 /* Camera Control DemoTests */,
 				C8D456D12A54186C000A3A20 /* Camera Control DemoUITests */,
@@ -104,7 +105,6 @@
 				C8D456E12A54188E000A3A20 /* CameraController.swift */,
 				C8D456E52A541CE4000A3A20 /* MySCNView.swift */,
 				C8D456B82A54186B000A3A20 /* ViewController.swift */,
-				C8D456E72A541FBE000A3A20 /* README.md */,
 				C8D456BA2A54186B000A3A20 /* Assets.xcassets */,
 				C8D456BC2A54186B000A3A20 /* Main.storyboard */,
 				C8D456BF2A54186B000A3A20 /* Camera_Control_Demo.entitlements */,

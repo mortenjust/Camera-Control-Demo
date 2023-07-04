@@ -9,5 +9,15 @@ import Foundation
 import SceneKit
 
 class CameraController : SCNCameraController {
+    override init() {
+        super.init()
+    }
+    
+    
+    override func rotateBy(x deltaX: Float, y deltaY: Float) {
+        super.rotateBy(x: deltaX, y: deltaY)
+    }
+    
+    
     
 }

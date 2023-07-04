@@ -14,6 +14,8 @@
 		C8D456C92A54186C000A3A20 /* Camera_Control_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D456C82A54186C000A3A20 /* Camera_Control_DemoTests.swift */; };
 		C8D456D32A54186C000A3A20 /* Camera_Control_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D456D22A54186C000A3A20 /* Camera_Control_DemoUITests.swift */; };
 		C8D456D52A54186C000A3A20 /* Camera_Control_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D456D42A54186C000A3A20 /* Camera_Control_DemoUITestsLaunchTests.swift */; };
+		C8D456E22A54188E000A3A20 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D456E12A54188E000A3A20 /* CameraController.swift */; };
+		C8D456E62A541CE4000A3A20 /* MySCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D456E52A541CE4000A3A20 /* MySCNView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,9 @@
 		C8D456CE2A54186C000A3A20 /* Camera Control DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camera Control DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D456D22A54186C000A3A20 /* Camera_Control_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Control_DemoUITests.swift; sourceTree = "<group>"; };
 		C8D456D42A54186C000A3A20 /* Camera_Control_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_Control_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8D456E12A54188E000A3A20 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		C8D456E52A541CE4000A3A20 /* MySCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySCNView.swift; sourceTree = "<group>"; };
+		C8D456E72A541FBE000A3A20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				C8D456B62A54186B000A3A20 /* AppDelegate.swift */,
+				C8D456E12A54188E000A3A20 /* CameraController.swift */,
+				C8D456E52A541CE4000A3A20 /* MySCNView.swift */,
 				C8D456B82A54186B000A3A20 /* ViewController.swift */,
+				C8D456E72A541FBE000A3A20 /* README.md */,
 				C8D456BA2A54186B000A3A20 /* Assets.xcassets */,
 				C8D456BC2A54186B000A3A20 /* Main.storyboard */,
 				C8D456BF2A54186B000A3A20 /* Camera_Control_Demo.entitlements */,
@@ -251,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D456E22A54188E000A3A20 /* CameraController.swift in Sources */,
 				C8D456B92A54186B000A3A20 /* ViewController.swift in Sources */,
 				C8D456B72A54186B000A3A20 /* AppDelegate.swift in Sources */,
+				C8D456E62A541CE4000A3A20 /* MySCNView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
